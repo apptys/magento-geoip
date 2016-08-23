@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<modules>
+		<Apptys_Geoip>
+			<version>0.1.0</version>
+		</Apptys_Geoip>
+	</modules>
+	<global>
+        <helpers>
+            <apptys_geoip>
+                <class>Apptys_Geoip_Helper</class>
+            </apptys_geoip>
+        </helpers>
+		<models>
+			<apptys_geoip>
+				<class>Apptys_Geoip_Model</class>
+			</apptys_geoip>
+		</models>
+	</global>
+    <default>
+        <apptys_geoip>
+            <upload>
+                <datafile></datafile>
+            </upload>
+        </apptys_geoip>
+    </default>
+</config>
